@@ -13,8 +13,8 @@ public class Splash extends AppCompatActivity {
         setContentView(R.layout.splash);
 
         ImageView iv=(ImageView) findViewById(R.id.img);
-        //Animation an= AnimationUtils.loadAnimation(getBaseContext(),R.anim.clock);
-        //iv.startAnimation(an);
+        Animation an= AnimationUtils.loadAnimation(getBaseContext(),R.anim.clock);
+        iv.startAnimation(an);
 
         Animation an2= AnimationUtils.loadAnimation(getBaseContext(),R.anim.anim);
         iv.startAnimation(an2);
