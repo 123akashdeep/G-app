@@ -27,6 +27,7 @@ public class Home extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
+    
     private int[] tabIcons = {
             R.drawable.three,
             R.drawable.two,
