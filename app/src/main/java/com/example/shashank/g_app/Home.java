@@ -34,6 +34,7 @@ public class Home extends AppCompatActivity {
             R.drawable.ic_home_black_24dp1
     };
 
+    
     Boolean check = false;
 
     @Override
