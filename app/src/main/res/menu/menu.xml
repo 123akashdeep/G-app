@@ -1,0 +1,13 @@
+<menu xmlns:xmls="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/log"
+        android:title="menu"
+        android:icon="@drawable/logout"
+        xmls:showAsAction="always">
+        <item
+            android:id="@+id/logout"
+            android:title="logout"/>
+        </group>
+</menu>
